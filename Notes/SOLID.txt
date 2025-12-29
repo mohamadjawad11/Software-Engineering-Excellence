@@ -1,0 +1,48 @@
+SOLID PRINCPLES
+
+S ==> Single Responsibility
+  =>in the initial app.ts I was making more than functionality in 1 single code file
+  I will create app-clean.ts.for single responsibility I created an interface
+  which interface means contract and the class will implement the interface
+  I created 3 classes a class for order management which is responsible for
+  getting orders and adding orders.The second class is Validator in this
+  class I will create methods that validate the order.The third class is
+  FinancialClaculator which is responsible to find avg by power and revenue.
+  
+
+O ==> Open Closed
+  => this means a class can be open for extension but closed for modification
+     for example the CEO told the dev team to add a new validation on price 
+     which is price of order should not be more than 100.In this case I will 
+     think to create new validation in class validator and use it in orderManagement
+     before pushing the new order.On this case we are violating the rules of open close.
+     So what I did is that I created a new interface which is called IValidation and
+     I created a function for each validation price and type etc.. then I used these 
+     validations in a class named validator inside this validator there is a method validates 
+     that uses all the seperate validation.And this validation function is used in orderManagement
+     before pushing the new order.
+
+L ==> Liskov Substitution
+  => this means that if we have a class A and class B is a subclass of class A
+     then we can use class A in place of class B and vice versa.use in extends
+     and inheritnce.
+
+I ==> Interface Segregation
+  => this means that we should not have a big interface that has all the methods
+     that we need to use in our application instead we should have a small 
+     interface that has only the methods that we need to use in our application
+     and we should have a class that implements this interface and uses the methods
+     in this interface.for example it is wrong to make new method in IValidator named 
+     getPossibleItems(),because all the classes that implements this interface should have this method.
+     Instead of this I use only needed methods in this interface,and create new interface IPossibleItems 
+     and let the class validator have more than 1 implement and implement this new interface.
+
+D ==> Dependency Inversion
+  => this means that we should not have a class that depends on another class
+     instead we should have a class that depends on an interface and this interface
+     should be implemented by another class.To apply this principle we should use the
+     constructor.Inside the OrderManagement which is depending on FinancialClaculator and 
+     Validator we should use the constructor and pass the FinancialClaculator and Validator
+     as interface in the constructor and let the OrderManagement depends on the interface
+     
+      
