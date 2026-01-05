@@ -1,58 +1,67 @@
-//the app.ts main problem was that it was not following the clean architecture principles.
-//SOLID principles were not being followed.
+// index.ts
+// Entry point for running and demonstrating the Order Management logic
 
-import { FinancialCalculator, OrderManagement, Validator,ItemValidator,PriceValidator,MaxPriceValidator } from "./app.js";
+import {
+  FinancialCalculator,
+  OrderManagement,
+  Validator,
+  ItemValidator,
+  PriceValidator,
+  MaxPriceValidator,
+} from "./app.js";
 
-//array that contains group of orders
+// Array that contains a group of orders
 const orders = [
-    { id: 1, item: "Sponge", price: 15 },
-    { id: 2, item: "Chocolate", price: 20 },
-    { id: 3, item: "Fruit", price: 18 },
-    { id: 4, item: "Red Velvet", price: 25 },
-    { id: 5, item: "Coffee", price: 8 },
+  { id: 1, item: "Sponge", price: 15 },
+  { id: 2, item: "Chocolate", price: 20 },
+  { id: 3, item: "Fruit", price: 18 },
+  { id: 4, item: "Red Velvet", price: 25 },
+  { id: 5, item: "Coffee", price: 8 },
 ];
 
-const rules=[
-    new ItemValidator(),
-    new PriceValidator(),
-    new MaxPriceValidator()
-]
-//I stored the orders in orders array which is declared in OrderManagement class
-const orderManager=new OrderManagement(new Validator(rules),new FinancialCalculator());
-for(const order of orders){
-    orderManager.addOrder(order.item,order.price);
+// Validation rules (Open/Closed & Single Responsibility respected)
+const rules = [
+  new ItemValidator(),
+  new PriceValidator(),
+  new MaxPriceValidator(),
+];
+
+// Create OrderManagement with injected dependencies (DIP)
+const orderManager = new OrderManagement(
+  new Validator(rules),
+  new FinancialCalculator()
+);
+
+// Add initial orders
+for (const order of orders) {
+  orderManager.addOrder(order.item, order.price);
 }
 
-// print the current orders 
+// Correct logging (no string concatenation with objects)
 console.log("The current orders are:", orderManager.getOrders());
 
-//created new order 
+// Create and add a new order
 const newItem = "Marble";
 const newPrice = 22;
-
-//added new order to orders through orderManager which have accedd on addorder method
 orderManager.addOrder(newItem, newPrice);
 
+// Correct logging
 console.log("Orders after adding new order:", orderManager.getOrders());
 
+// Financial calculations
+console.log("Total Revenue:", orderManager.getTotalRevenue());
+console.log("Average By Power:", orderManager.getAverageByPower());
 
-console.log("Total Revenue: "+orderManager.getTotalRevenue());
-console.log("Average By Power: "+orderManager.getAverageByPower());
+// Fetch an existing order
+const fetchId = 2;
+const fetchedOrder = orderManager.getOrderById(fetchId);
 
-//print an order by id
-const fetch=2;
-const fetchedOrder=orderManager.getOrderById(fetch);
+// Correct logging
 console.log("Fetched Order with id 2 is:", fetchedOrder);
 
-//print a nonexisting order
-const nonExistingId=10;
-const nonExistingOrder=orderManager.getOrderById(nonExistingId);
+// Fetch a non-existing order
+const nonExistingId = 10;
+const nonExistingOrder = orderManager.getOrderById(nonExistingId);
+
+// Correct logging
 console.log("Fetched Order with id 10 is:", nonExistingOrder);
-
-
-
-
-
-
-
-

@@ -1,21 +1,38 @@
+import { Validator } from './../src/app.js';
 import {
     OrderManagement,
     FinancialCalculator,
-    Validator,
     ItemValidator,
     PriceValidator,
     MaxPriceValidator,
 } from "../src/app.js";
 
+import { jest } from "@jest/globals";
+
+
 //this is a test to test if the OrderManagement class is working properly
 describe("OrderManagement Testing Functions", () => {
 
+    let validator:Validator;
+    let calculator:FinancialCalculator;
+    let manager:OrderManagement;
+
+    //before each test inside order managment I am creating new instances of validator , calculator
+    beforeAll(()=>{
+        validator=new Validator([]);
+        calculator=new FinancialCalculator();
+    });
+
+    //before each test inside order managment I am creating new instance of order management
+    beforeEach(()=>{
+        manager=new OrderManagement(validator,calculator);
+    });
+
+
+
+
     //test to add an order
     it("should add an order",()=>{
-        const validator=new Validator([]);
-        const calculator=new FinancialCalculator();
-        const manager=new OrderManagement(validator,calculator);
-
         const item="Sponge";
         const price=15;
 
@@ -23,12 +40,11 @@ describe("OrderManagement Testing Functions", () => {
         expect(manager.getOrders()).toEqual([{id:1,item,price}]);
     })
 
+
+
+
     //test to get a specefic order by id
     it("should get an order by id",()=>{
-        const validator=new Validator([]);
-        const calculator=new FinancialCalculator();
-        const manager=new OrderManagement(validator,calculator);
-
         const item="Sponge";
         const price=15;
 
@@ -37,19 +53,48 @@ describe("OrderManagement Testing Functions", () => {
         expect(order).toEqual({id:1,item,price});
     })
 
+
+
+
     //calculating totals via OrderManagement not financial calculator directly
     it("should calculate totals via OrderManagement", () => {
-        const validator = new Validator([]);
-        const calculator = new FinancialCalculator();
-        const manager = new OrderManagement(validator, calculator);
-
         manager.addOrder("Sponge", 15);
         manager.addOrder("Chocolate", 20);
 
         expect(manager.getTotalRevenue()).toBe(35);
         expect(manager.getAverageByPower()).toBe(17.5);
     });
+
+
+
+ it("should call calculator.getRevenue with current orders", () => {
+        //Add orders
+        manager.addOrder("Sponge", 15);
+        manager.addOrder("Chocolate", 20);
+
+
+        //Spy on calculator.getRevenue
+        const revenueSpy = jest.spyOn(calculator, "getRevenue");
+
+        // Call getTotalRevenue
+        const total = manager.getTotalRevenue();
+
+        //verify that getRevenue was calles
+        expect(revenueSpy).toHaveBeenCalledTimes(1);
+
+        //verify that getRevenue was called with the current orders
+        expect(revenueSpy).toHaveBeenCalledWith(manager.getOrders());
+
+        //verify the total revenue value
+        expect(total).toBe(35);
+
+        revenueSpy.mockRestore();
+    });    
 })
+
+
+
+
 
 //testing through financial calculator directly
 describe("FinancialCalculator Testing Functions", () => {
