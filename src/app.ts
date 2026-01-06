@@ -1,3 +1,5 @@
+import logger from "./util/logger.js";
+
 interface Order {
   id: number;
   item: string;
@@ -16,7 +18,7 @@ export class OrderManagement {
   }
 
   addOrder(item: string, price: number): void {
-    const order:Order={
+    try {const order:Order={
       id: this.orders.length + 1,
       item,
       price,
@@ -24,6 +26,10 @@ export class OrderManagement {
     //here I am depending on constructor not class Validator itself
     this.validator.validate(order);
     this.orders.push(order);
+  } catch (error) {
+    console.error("Failed to add order:", error);
+
+  }
   }
 
   getOrderById(id: number): Order | undefined {
@@ -44,6 +50,10 @@ export class OrderManagement {
 class PremiemOrderManagement extends OrderManagement {
   public getOrderById(id:number): Order | undefined {
     console.log("Premium Order Management");
+    if (id <= 0) {
+      logger.error("Invalid Order ID: %d", id);
+      throw new Error("Invalid Order ID");
+    }
     return super.getOrderById(id);
   }
 }
@@ -77,6 +87,7 @@ export class ItemValidator implements IValidator {
     
   validate(order: Order): void {
     if (!ItemValidator.possibleItems.includes(order.item)) {
+      logger.error("Item not found: %s", order.item);
       throw new Error("Item not found");
     }
   }
@@ -85,6 +96,7 @@ export class ItemValidator implements IValidator {
 export class MaxPriceValidator implements IValidator {
   validate(order: Order): void {
     if (order.price > 100) {
+      logger.error("Price cannot be greater than 100: %s", order.price);
       throw new Error("Price cannot be greater than 100");
     }
   }
@@ -93,6 +105,7 @@ export class MaxPriceValidator implements IValidator {
 export class PriceValidator implements IValidator {
   validate(order: Order): void {
     if (order.price < 0) {
+      logger.error("Price cannot be negative: %s", order.price);
       throw new Error("Price cannot be negative");
     }
   }

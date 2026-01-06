@@ -1,0 +1,115 @@
+{"0":{"id":1,"item":"Sponge","price":15},"1":{"id":2,"item":"Chocolate","price":20},"2":{"id":3,"item":"Fruit","price":18},"3":{"id":4,"item":"Red Velvet","price":25},"4":{"id":5,"item":"Coffee","price":8},"level":"info","message":"The current orders are:"}
+{"0":{"id":1,"item":"Sponge","price":15},"1":{"id":2,"item":"Chocolate","price":20},"2":{"id":3,"item":"Fruit","price":18},"3":{"id":4,"item":"Red Velvet","price":25},"4":{"id":5,"item":"Coffee","price":8},"5":{"id":6,"item":"Marble","price":22},"level":"info","message":"Orders after adding new order:"}
+{"level":"info","message":"Total Revenue:"}
+{"level":"info","message":"Average By Power:"}
+{"id":2,"item":"Chocolate","level":"info","message":"Fetched Order with id 2 is:","price":20}
+{"level":"info","message":"Fetched Order with id 10 is:"}
+{"0":{"id":1,"item":"Sponge","price":15},"1":{"id":2,"item":"Chocolate","price":20},"2":{"id":3,"item":"Fruit","price":18},"3":{"id":4,"item":"Red Velvet","price":25},"4":{"id":5,"item":"Coffee","price":8},"level":"info","message":"The current orders are:"}
+{"0":{"id":1,"item":"Sponge","price":15},"1":{"id":2,"item":"Chocolate","price":20},"2":{"id":3,"item":"Fruit","price":18},"3":{"id":4,"item":"Red Velvet","price":25},"4":{"id":5,"item":"Coffee","price":8},"5":{"id":6,"item":"Marble","price":22},"level":"info","message":"Orders after adding new order:"}
+{"level":"info","message":"Total Revenue:"}
+{"level":"info","message":"Average By Power:"}
+{"id":2,"item":"Chocolate","level":"info","message":"Fetched Order with id 2 is:","price":20}
+{"level":"info","message":"Fetched Order with id 10 is:"}
+{"0":{"id":1,"item":"Sponge","price":15},"1":{"id":2,"item":"Chocolate","price":20},"2":{"id":3,"item":"Fruit","price":18},"3":{"id":4,"item":"Red Velvet","price":25},"4":{"id":5,"item":"Coffee","price":8},"level":"info","message":"The current orders are:","timestamp":"2026-01-06 12:03:00"}
+{"0":{"id":1,"item":"Sponge","price":15},"1":{"id":2,"item":"Chocolate","price":20},"2":{"id":3,"item":"Fruit","price":18},"3":{"id":4,"item":"Red Velvet","price":25},"4":{"id":5,"item":"Coffee","price":8},"5":{"id":6,"item":"Marble","price":22},"level":"info","message":"Orders after adding new order:","timestamp":"2026-01-06 12:03:00"}
+{"level":"info","message":"Total Revenue:","timestamp":"2026-01-06 12:03:00"}
+{"level":"info","message":"Average By Power:","timestamp":"2026-01-06 12:03:00"}
+{"id":2,"item":"Chocolate","level":"info","message":"Fetched Order with id 2 is:","price":20,"timestamp":"2026-01-06 12:03:00"}
+{"level":"info","message":"Fetched Order with id 10 is:","timestamp":"2026-01-06 12:03:00"}
+{"0":{"id":1,"item":"Sponge","price":15},"1":{"id":2,"item":"Chocolate","price":20},"2":{"id":3,"item":"Fruit","price":18},"3":{"id":4,"item":"Red Velvet","price":25},"4":{"id":5,"item":"Coffee","price":8},"level":"info","message":"The current orders are:","timestamp":"2026-01-06 12:03:11"}
+{"0":{"id":1,"item":"Sponge","price":15},"1":{"id":2,"item":"Chocolate","price":20},"2":{"id":3,"item":"Fruit","price":18},"3":{"id":4,"item":"Red Velvet","price":25},"4":{"id":5,"item":"Coffee","price":8},"5":{"id":6,"item":"Marble","price":22},"level":"info","message":"Orders after adding new order:","timestamp":"2026-01-06 12:03:11"}
+{"level":"info","message":"Total Revenue:","timestamp":"2026-01-06 12:03:11"}
+{"level":"info","message":"Average By Power:","timestamp":"2026-01-06 12:03:11"}
+{"id":2,"item":"Chocolate","level":"info","message":"Fetched Order with id 2 is:","price":20,"timestamp":"2026-01-06 12:03:11"}
+{"level":"info","message":"Fetched Order with id 10 is:","timestamp":"2026-01-06 12:03:11"}
+{"0":{"id":1,"item":"Sponge","price":15},"1":{"id":2,"item":"Chocolate","price":20},"2":{"id":3,"item":"Fruit","price":18},"3":{"id":4,"item":"Red Velvet","price":25},"4":{"id":5,"item":"Coffee","price":8},"level":"info","message":"The current orders are:","timestamp":"2026-01-06 12:05:12"}
+{"0":{"id":1,"item":"Sponge","price":15},"1":{"id":2,"item":"Chocolate","price":20},"2":{"id":3,"item":"Fruit","price":18},"3":{"id":4,"item":"Red Velvet","price":25},"4":{"id":5,"item":"Coffee","price":8},"5":{"id":6,"item":"Marble","price":22},"level":"info","message":"Orders after adding new order:","timestamp":"2026-01-06 12:05:12"}
+{"level":"info","message":"Total Revenue:","timestamp":"2026-01-06 12:05:12"}
+{"level":"info","message":"Average By Power:","timestamp":"2026-01-06 12:05:12"}
+{"id":2,"item":"Chocolate","level":"info","message":"Fetched Order with id 2 is:","price":20,"timestamp":"2026-01-06 12:05:12"}
+{"level":"info","message":"Fetched Order with id 10 is:","timestamp":"2026-01-06 12:05:12"}
+{"0":{"id":1,"item":"Sponge","price":15},"1":{"id":2,"item":"Chocolate","price":20},"2":{"id":3,"item":"Fruit","price":18},"3":{"id":4,"item":"Red Velvet","price":25},"4":{"id":5,"item":"Coffee","price":8},"level":"info","message":"The current orders are:","timestamp":"2026-01-06 12:05:19"}
+{"0":{"id":1,"item":"Sponge","price":15},"1":{"id":2,"item":"Chocolate","price":20},"2":{"id":3,"item":"Fruit","price":18},"3":{"id":4,"item":"Red Velvet","price":25},"4":{"id":5,"item":"Coffee","price":8},"5":{"id":6,"item":"Marble","price":22},"level":"info","message":"Orders after adding new order:","timestamp":"2026-01-06 12:05:19"}
+{"level":"info","message":"Total Revenue:","timestamp":"2026-01-06 12:05:19"}
+{"level":"info","message":"Average By Power:","timestamp":"2026-01-06 12:05:19"}
+{"id":2,"item":"Chocolate","level":"info","message":"Fetched Order with id 2 is:","price":20,"timestamp":"2026-01-06 12:05:19"}
+{"level":"info","message":"Fetched Order with id 10 is:","timestamp":"2026-01-06 12:05:19"}
+{"0":{"id":1,"item":"Sponge","price":15},"1":{"id":2,"item":"Chocolate","price":20},"2":{"id":3,"item":"Fruit","price":18},"3":{"id":4,"item":"Red Velvet","price":25},"4":{"id":5,"item":"Coffee","price":8},"level":"info","message":"The current orders are:","timestamp":"2026-01-06 12:06:32"}
+{"0":{"id":1,"item":"Sponge","price":15},"1":{"id":2,"item":"Chocolate","price":20},"2":{"id":3,"item":"Fruit","price":18},"3":{"id":4,"item":"Red Velvet","price":25},"4":{"id":5,"item":"Coffee","price":8},"5":{"id":6,"item":"Marble","price":22},"level":"info","message":"Orders after adding new order:","timestamp":"2026-01-06 12:06:32"}
+{"level":"info","message":"Total Revenue:","timestamp":"2026-01-06 12:06:32"}
+{"level":"info","message":"Average By Power:","timestamp":"2026-01-06 12:06:32"}
+{"id":2,"item":"Chocolate","level":"info","message":"Fetched Order with id 2 is:","price":20,"timestamp":"2026-01-06 12:06:32"}
+{"level":"info","message":"Fetched Order with id 10 is:","timestamp":"2026-01-06 12:06:32"}
+{"0":{"id":1,"item":"Sponge","price":15},"1":{"id":2,"item":"Chocolate","price":20},"2":{"id":3,"item":"Fruit","price":18},"3":{"id":4,"item":"Red Velvet","price":25},"4":{"id":5,"item":"Coffee","price":8},"level":"info","message":"The current orders are:","timestamp":"2026-01-06 12:07:43"}
+{"0":{"id":1,"item":"Sponge","price":15},"1":{"id":2,"item":"Chocolate","price":20},"2":{"id":3,"item":"Fruit","price":18},"3":{"id":4,"item":"Red Velvet","price":25},"4":{"id":5,"item":"Coffee","price":8},"5":{"id":6,"item":"Marble","price":22},"level":"info","message":"Orders after adding new order:","timestamp":"2026-01-06 12:07:43"}
+{"level":"info","message":"Total Revenue:","timestamp":"2026-01-06 12:07:43"}
+{"level":"info","message":"Average By Power:","timestamp":"2026-01-06 12:07:43"}
+{"id":2,"item":"Chocolate","level":"info","message":"Fetched Order with id 2 is:","price":20,"timestamp":"2026-01-06 12:07:43"}
+{"level":"info","message":"Fetched Order with id 10 is:","timestamp":"2026-01-06 12:07:43"}
+{"level":"info","message":"The current orders are: %o","timestamp":"2026-01-06 12:07:51"}
+{"level":"info","message":"Orders after adding new order: %o","timestamp":"2026-01-06 12:07:51"}
+{"level":"info","message":"Total Revenue: %d","timestamp":"2026-01-06 12:07:51"}
+{"level":"info","message":"Average By Power: %d","timestamp":"2026-01-06 12:07:51"}
+{"level":"info","message":"Fetched Order with id %d is: %o","timestamp":"2026-01-06 12:07:51"}
+{"level":"info","message":"Fetched Order with id %d is: %o","timestamp":"2026-01-06 12:07:51"}
+{"level":"info","message":"The current orders are: [\n  { id: 1, item: 'Sponge', price: 15 },\n  { id: 2, item: 'Chocolate', price: 20 },\n  { id: 3, item: 'Fruit', price: 18 },\n  { id: 4, item: 'Red Velvet', price: 25 },\n  { id: 5, item: 'Coffee', price: 8 },\n  [length]: 5\n]","timestamp":"2026-01-06 12:08:33"}
+{"level":"info","message":"Orders after adding new order: [\n  { id: 1, item: 'Sponge', price: 15 },\n  { id: 2, item: 'Chocolate', price: 20 },\n  { id: 3, item: 'Fruit', price: 18 },\n  { id: 4, item: 'Red Velvet', price: 25 },\n  { id: 5, item: 'Coffee', price: 8 },\n  { id: 6, item: 'Marble', price: 22 },\n  [length]: 6\n]","timestamp":"2026-01-06 12:08:33"}
+{"level":"info","message":"Total Revenue: 108","timestamp":"2026-01-06 12:08:33"}
+{"level":"info","message":"Average By Power: 18","timestamp":"2026-01-06 12:08:33"}
+{"level":"info","message":"Fetched Order with id 2 is: { id: 2, item: 'Chocolate', price: 20 }","timestamp":"2026-01-06 12:08:33"}
+{"level":"info","message":"Fetched Order with id 10 is: undefined","timestamp":"2026-01-06 12:08:33"}
+{"level":"info","message":"The current orders are: [\n  { id: 1, item: 'Sponge', price: 15 },\n  { id: 2, item: 'Chocolate', price: 20 },\n  { id: 3, item: 'Fruit', price: 18 },\n  { id: 4, item: 'Red Velvet', price: 25 },\n  { id: 5, item: 'Coffee', price: 8 },\n  [length]: 5\n]","timestamp":"2026-01-06 12:17:48"}
+{"level":"info","message":"Orders after adding new order: [\n  { id: 1, item: 'Sponge', price: 15 },\n  { id: 2, item: 'Chocolate', price: 20 },\n  { id: 3, item: 'Fruit', price: 18 },\n  { id: 4, item: 'Red Velvet', price: 25 },\n  { id: 5, item: 'Coffee', price: 8 },\n  { id: 6, item: 'Marble', price: 22 },\n  [length]: 6\n]","timestamp":"2026-01-06 12:17:48"}
+{"level":"info","message":"Total Revenue: 108","timestamp":"2026-01-06 12:17:48"}
+{"level":"info","message":"Average By Power: 18","timestamp":"2026-01-06 12:17:48"}
+{"level":"info","message":"Fetched Order with id 2 is: { id: 2, item: 'Chocolate', price: 20 }","timestamp":"2026-01-06 12:17:48"}
+{"level":"info","message":"Fetched Order with id 10 is: undefined","timestamp":"2026-01-06 12:17:48"}
+{"level":"info","message":"The current orders are: [\n  { id: 1, item: 'Sponge', price: 15 },\n  { id: 2, item: 'Chocolate', price: 20 },\n  { id: 3, item: 'Fruit', price: 18 },\n  { id: 4, item: 'Red Velvet', price: 25 },\n  { id: 5, item: 'Coffee', price: 8 },\n  [length]: 5\n]","timestamp":"2026-01-06 12:18:10"}
+{"level":"info","message":"Orders after adding new order: [\n  { id: 1, item: 'Sponge', price: 15 },\n  { id: 2, item: 'Chocolate', price: 20 },\n  { id: 3, item: 'Fruit', price: 18 },\n  { id: 4, item: 'Red Velvet', price: 25 },\n  { id: 5, item: 'Coffee', price: 8 },\n  { id: 6, item: 'Marble', price: 22 },\n  [length]: 6\n]","timestamp":"2026-01-06 12:18:10"}
+{"level":"info","message":"Total Revenue: 108","timestamp":"2026-01-06 12:18:10"}
+{"level":"info","message":"Average By Power: 18","timestamp":"2026-01-06 12:18:10"}
+{"level":"info","message":"Fetched Order with id 2 is: { id: 2, item: 'Chocolate', price: 20 }","timestamp":"2026-01-06 12:18:10"}
+{"level":"info","message":"Fetched Order with id 0 is: undefined","timestamp":"2026-01-06 12:18:10"}
+{"level":"info","message":"The current orders are: [\n  { id: 1, item: 'Sponge', price: 15 },\n  { id: 2, item: 'Chocolate', price: 20 },\n  { id: 3, item: 'Fruit', price: 18 },\n  { id: 4, item: 'Red Velvet', price: 25 },\n  { id: 5, item: 'Coffee', price: 8 },\n  [length]: 5\n]","timestamp":"2026-01-06 12:18:36"}
+{"level":"info","message":"Orders after adding new order: [\n  { id: 1, item: 'Sponge', price: 15 },\n  { id: 2, item: 'Chocolate', price: 20 },\n  { id: 3, item: 'Fruit', price: 18 },\n  { id: 4, item: 'Red Velvet', price: 25 },\n  { id: 5, item: 'Coffee', price: 8 },\n  { id: 6, item: 'Marble', price: 22 },\n  [length]: 6\n]","timestamp":"2026-01-06 12:18:36"}
+{"level":"info","message":"Total Revenue: 108","timestamp":"2026-01-06 12:18:36"}
+{"level":"info","message":"Average By Power: 18","timestamp":"2026-01-06 12:18:36"}
+{"level":"info","message":"Fetched Order with id 2 is: { id: 2, item: 'Chocolate', price: 20 }","timestamp":"2026-01-06 12:18:36"}
+{"level":"info","message":"Fetched Order with id 0 is: undefined","timestamp":"2026-01-06 12:18:36"}
+{"level":"info","message":"The current orders are: [\n  { id: 1, item: 'Sponge', price: 15 },\n  { id: 2, item: 'Chocolate', price: 20 },\n  { id: 3, item: 'Fruit', price: 18 },\n  { id: 4, item: 'Red Velvet', price: 25 },\n  { id: 5, item: 'Coffee', price: 8 },\n  [length]: 5\n]","timestamp":"2026-01-06 12:18:54"}
+{"level":"error","message":"Price cannot be negative: -22","timestamp":"2026-01-06 12:18:54"}
+{"level":"info","message":"Orders after adding new order: [\n  { id: 1, item: 'Sponge', price: 15 },\n  { id: 2, item: 'Chocolate', price: 20 },\n  { id: 3, item: 'Fruit', price: 18 },\n  { id: 4, item: 'Red Velvet', price: 25 },\n  { id: 5, item: 'Coffee', price: 8 },\n  [length]: 5\n]","timestamp":"2026-01-06 12:18:54"}
+{"level":"info","message":"Total Revenue: 86","timestamp":"2026-01-06 12:18:54"}
+{"level":"info","message":"Average By Power: 17.2","timestamp":"2026-01-06 12:18:54"}
+{"level":"info","message":"Fetched Order with id 2 is: { id: 2, item: 'Chocolate', price: 20 }","timestamp":"2026-01-06 12:18:54"}
+{"level":"info","message":"Fetched Order with id 0 is: undefined","timestamp":"2026-01-06 12:18:54"}
+{"level":"info","message":"The current orders are: [\n  { id: 1, item: 'Sponge', price: 15 },\n  { id: 2, item: 'Chocolate', price: 20 },\n  { id: 3, item: 'Fruit', price: 18 },\n  { id: 4, item: 'Red Velvet', price: 25 },\n  { id: 5, item: 'Coffee', price: 8 },\n  [length]: 5\n]","timestamp":"2026-01-06 12:19:10"}
+{"level":"info","message":"Orders after adding new order: [\n  { id: 1, item: 'Sponge', price: 15 },\n  { id: 2, item: 'Chocolate', price: 20 },\n  { id: 3, item: 'Fruit', price: 18 },\n  { id: 4, item: 'Red Velvet', price: 25 },\n  { id: 5, item: 'Coffee', price: 8 },\n  { id: 6, item: 'Marble', price: 22 },\n  [length]: 6\n]","timestamp":"2026-01-06 12:19:10"}
+{"level":"info","message":"Total Revenue: 108","timestamp":"2026-01-06 12:19:10"}
+{"level":"info","message":"Average By Power: 18","timestamp":"2026-01-06 12:19:10"}
+{"level":"info","message":"Fetched Order with id 2 is: { id: 2, item: 'Chocolate', price: 20 }","timestamp":"2026-01-06 12:19:10"}
+{"level":"info","message":"Fetched Order with id 0 is: undefined","timestamp":"2026-01-06 12:19:10"}
+{"level":"info","message":"The current orders are: [\n  { id: 1, item: 'Sponge', price: 15 },\n  { id: 2, item: 'Chocolate', price: 20 },\n  { id: 3, item: 'Fruit', price: 18 },\n  { id: 4, item: 'Red Velvet', price: 25 },\n  { id: 5, item: 'Coffee', price: 8 },\n  [length]: 5\n]","timestamp":"2026-01-06 12:44:14"}
+{"level":"info","message":"Orders after adding new order: [\n  { id: 1, item: 'Sponge', price: 15 },\n  { id: 2, item: 'Chocolate', price: 20 },\n  { id: 3, item: 'Fruit', price: 18 },\n  { id: 4, item: 'Red Velvet', price: 25 },\n  { id: 5, item: 'Coffee', price: 8 },\n  { id: 6, item: 'Marble', price: 22 },\n  [length]: 6\n]","timestamp":"2026-01-06 12:44:14"}
+{"level":"info","message":"Total Revenue: 108","timestamp":"2026-01-06 12:44:14"}
+{"level":"info","message":"Average By Power: 18","timestamp":"2026-01-06 12:44:14"}
+{"level":"info","message":"Fetched Order with id 2 is: { id: 2, item: 'Chocolate', price: 20 }","timestamp":"2026-01-06 12:44:14"}
+{"level":"info","message":"Fetched Order with id 0 is: undefined","timestamp":"2026-01-06 12:44:14"}
+{"level":"info","message":"The current orders are: [\n  { id: 1, item: 'Sponge', price: 15 },\n  { id: 2, item: 'Chocolate', price: 20 },\n  { id: 3, item: 'Fruit', price: 18 },\n  { id: 4, item: 'Red Velvet', price: 25 },\n  { id: 5, item: 'Coffee', price: 8 },\n  [length]: 5\n]","timestamp":"2026-01-06 12:44:50"}
+{"level":"info","message":"Orders after adding new order: [\n  { id: 1, item: 'Sponge', price: 15 },\n  { id: 2, item: 'Chocolate', price: 20 },\n  { id: 3, item: 'Fruit', price: 18 },\n  { id: 4, item: 'Red Velvet', price: 25 },\n  { id: 5, item: 'Coffee', price: 8 },\n  { id: 6, item: 'Marble', price: 22 },\n  [length]: 6\n]","timestamp":"2026-01-06 12:44:50"}
+{"level":"info","message":"Total Revenue: 108","timestamp":"2026-01-06 12:44:50"}
+{"level":"info","message":"Average By Power: 18","timestamp":"2026-01-06 12:44:50"}
+{"level":"info","message":"Fetched Order with id 2 is: { id: 2, item: 'Chocolate', price: 20 }","timestamp":"2026-01-06 12:44:50"}
+{"level":"info","message":"Fetched Order with id 0 is: undefined","timestamp":"2026-01-06 12:44:50"}
+{"level":"info","message":"The current orders are: [\n  { id: 1, item: 'Sponge', price: 15 },\n  { id: 2, item: 'Chocolate', price: 20 },\n  { id: 3, item: 'Fruit', price: 18 },\n  { id: 4, item: 'Red Velvet', price: 25 },\n  { id: 5, item: 'Coffee', price: 8 },\n  [length]: 5\n]","timestamp":"2026-01-06 12:45:06"}
+{"level":"info","message":"Orders after adding new order: [\n  { id: 1, item: 'Sponge', price: 15 },\n  { id: 2, item: 'Chocolate', price: 20 },\n  { id: 3, item: 'Fruit', price: 18 },\n  { id: 4, item: 'Red Velvet', price: 25 },\n  { id: 5, item: 'Coffee', price: 8 },\n  { id: 6, item: 'Marble', price: 22 },\n  [length]: 6\n]","timestamp":"2026-01-06 12:45:06"}
+{"level":"info","message":"Total Revenue: 108","timestamp":"2026-01-06 12:45:06"}
+{"level":"info","message":"Average By Power: 18","timestamp":"2026-01-06 12:45:06"}
+{"level":"info","message":"Fetched Order with id 2 is: { id: 2, item: 'Chocolate', price: 20 }","timestamp":"2026-01-06 12:45:06"}
+{"level":"info","message":"Fetched Order with id 0 is: undefined","timestamp":"2026-01-06 12:45:06"}
+{"level":"info","message":"The current orders are: [\n  { id: 1, item: 'Sponge', price: 15 },\n  { id: 2, item: 'Chocolate', price: 20 },\n  { id: 3, item: 'Fruit', price: 18 },\n  { id: 4, item: 'Red Velvet', price: 25 },\n  { id: 5, item: 'Coffee', price: 8 },\n  [length]: 5\n]","timestamp":"2026-01-06 12:45:48"}
+{"level":"info","message":"Orders after adding new order: [\n  { id: 1, item: 'Sponge', price: 15 },\n  { id: 2, item: 'Chocolate', price: 20 },\n  { id: 3, item: 'Fruit', price: 18 },\n  { id: 4, item: 'Red Velvet', price: 25 },\n  { id: 5, item: 'Coffee', price: 8 },\n  { id: 6, item: 'Marble', price: 22 },\n  [length]: 6\n]","timestamp":"2026-01-06 12:45:48"}
+{"level":"info","message":"Total Revenue: 108","timestamp":"2026-01-06 12:45:48"}
+{"level":"info","message":"Average By Power: 18","timestamp":"2026-01-06 12:45:48"}
+{"level":"info","message":"Fetched Order with id 2 is: { id: 2, item: 'Chocolate', price: 20 }","timestamp":"2026-01-06 12:45:48"}
+{"level":"info","message":"Fetched Order with id 0 is: undefined","timestamp":"2026-01-06 12:45:48"}

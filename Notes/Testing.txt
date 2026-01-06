@@ -1,3 +1,0 @@
-Unit Testing
-
-=>no database connection,test on dummy data,bring each class and start testing on the elements seperately
