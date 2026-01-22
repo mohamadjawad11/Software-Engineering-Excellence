@@ -38,6 +38,5 @@ if (isDevelopment) {
     new winston.transports.Console({ format: consoleLogFormat }),
     logger.add(new winston.transports.Console({ format: consoleLogFormat }));
     logger.level = 'debug'; // Set console log level to debug in development
-
 }
 export default logger;

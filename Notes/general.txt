@@ -1,0 +1,3 @@
+1)Abstract means I can like create a class Order and this class will contains all the common method 
+between the classes,and the subclasses will inherit from this class and override the method that they need to override.
+

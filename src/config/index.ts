@@ -10,3 +10,7 @@ dotenv.config({ path: path.resolve(__dirname, "../../.env") });
 export default {
  isDevelopment: process.env.NODE_ENV === 'development' || false,
 };
+
+
+
+
